@@ -4,7 +4,8 @@ __all__ = [
     "group",
     "user",
     "group_language",
-    "superban"
+    "superban",
+    "task_db"
 ]
 
 from core.database.repository import *

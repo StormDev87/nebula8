@@ -24,6 +24,10 @@ def user_command(dsp):
     function(CMH('kickme', public.kickme.init))
     function(CMH('staff', public.staff.init))
 
+    # Add in public --> TODO move in admin?!
+    function(CMH('addTask', public.tasks.init))
+    function(CMH('listTask', public.tasks.listTasks))
+
 """
 Here are inserted all the commands with admin permissions
 """
